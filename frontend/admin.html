@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard | FoodieHub</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>FoodieHub Admin</h1>
+      <a href="index.html">Back to Home</a>
+    </header>
+
+    <main class="admin-section">
+      <h2>Admin Dashboard</h2>
+
+      <div class="admin-stats">
+        <div class="stat-card">
+          <h3>Total Orders</h3>
+          <p id="totalOrders">0</p>
+        </div>
+
+        <div class="stat-card">
+          <h3>Total Revenue</h3>
+          <p id="totalRevenue">₹0</p>
+        </div>
+      </div>
+
+      <h2>Manage Orders</h2>
+
+      <div id="adminOrders">
+        <p>Loading orders...</p>
+      </div>
+    </main>
+
+    <script src="js/admin.js"></script>
+  </body>
+</html>

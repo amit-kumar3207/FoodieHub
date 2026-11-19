@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>FoodieHub - Order Your Favourite Food</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar Section -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">FoodieHub</div>
+
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#restaurants">Restaurants</a></li>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#menu">Food Menu</a></li>
+          <a href="my-orders.html">My Orders</a>
+          <a href="track-order.html">Track Order</a>
+        </ul>
+
+        <div class="nav-actions">
+          <a href="#cart" class="cart-link">
+            Cart (<span id="cartCount">0</span>)
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Delicious Food Delivered To Your Door</h1>
+
+        <p>Order your favourite food from the best restaurants near you.</p>
+
+        <div class="search-box">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search your favourite food..."
+          />
+
+          <button id="searchBtn">Search</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Restaurant Section -->
+    <section class="restaurants-section" id="restaurants">
+      <h2>Popular Restaurants</h2>
+
+      <div class="restaurants-container" id="restaurantsContainer">
+        <!-- Restaurants will be displayed using JavaScript -->
+      </div>
+    </section>
+
+    <!-- Food Categories Section -->
+    <section class="categories-section" id="categories">
+      <h2>Food Categories</h2>
+
+      <div class="categories-container" id="categoriesContainer">
+        <!-- Categories will be displayed using JavaScript -->
+      </div>
+    </section>
+
+    <!-- Food Menu Section -->
+    <section class="menu-section" id="menu">
+      <h2>Explore Our Food Menu</h2>
+
+      <div class="food-container" id="foodContainer">
+        <!-- Food items will be displayed using JavaScript -->
+      </div>
+    </section>
+
+    <!-- Cart Section -->
+    <section class="cart-section" id="cart">
+      <h2>Your Shopping Cart</h2>
+
+      <div class="cart-container" id="cartContainer">
+        <!-- Cart items will be displayed using JavaScript -->
+      </div>
+
+      <div class="order-summary" id="orderSummary">
+        <h3>Order Summary</h3>
+
+        <div class="summary-row">
+          <span>Total Items:</span>
+          <span id="totalItems">0</span>
+        </div>
+
+        <div class="summary-row">
+          <span>Subtotal:</span>
+          <span id="subtotalAmount">₹0.00</span>
+        </div>
+
+        <div class="summary-row">
+          <span>Delivery Fee:</span>
+          <span id="deliveryFee">₹0.00</span>
+        </div>
+
+        <div class="summary-row">
+          <strong>Grand Total:</strong>
+          <strong id="totalAmount">₹0.00</strong>
+        </div>
+
+        <button id="placeOrderBtn">Place Order</button>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>© 2026 FoodieHub. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
