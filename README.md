@@ -62,7 +62,7 @@ FoodieHub/
 ### 1. Clone the Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/amit-kumar3207/FoodieHub.git
 ```
 
 ### 2. Open Backend Folder
