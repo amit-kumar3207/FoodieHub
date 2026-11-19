@@ -105,3 +105,18 @@ MongoDB is used to store customer orders and order details.
 Developed as a full-stack web development practice project.
 
 **Project Name:** FoodieHub
+
+
+## 📸 Screenshots
+
+### Homepage
+![FoodieHub Homepage](screenshots/homepage.png)
+
+### Cart Page
+![FoodieHub Cart](screenshots/cart.png)
+
+### My Orders
+![My Orders](screenshots/my-orders.png)
+
+### Admin Dashboard
+![Admin Dashboard](screenshots/admin-dashboard.png)
